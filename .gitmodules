@@ -1,0 +1,3 @@
+[submodule "Regift"]
+	path = Regift
+	url = https://github.com/matthewpalmer/Regift.git

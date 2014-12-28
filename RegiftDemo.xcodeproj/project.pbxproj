@@ -13,6 +13,7 @@
 		0E0C3C001A4F9F8C00325FF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0C3BFF1A4F9F8C00325FF0 /* Images.xcassets */; };
 		0E0C3C031A4F9F8C00325FF0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0C3C011A4F9F8C00325FF0 /* LaunchScreen.xib */; };
 		0E0C3C0F1A4F9F8D00325FF0 /* RegiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C3C0E1A4F9F8D00325FF0 /* RegiftDemoTests.swift */; };
+		0E0C3C261A4FA0A700325FF0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0C3C251A4FA0A700325FF0 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +26,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0E0C3C211A4F9FF900325FF0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0E0C3BF31A4F9F8C00325FF0 /* RegiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0C3BF71A4F9F8C00325FF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +49,8 @@
 		0E0C3C081A4F9F8D00325FF0 /* RegiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0C3C0D1A4F9F8D00325FF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E0C3C0E1A4F9F8D00325FF0 /* RegiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegiftDemoTests.swift; sourceTree = "<group>"; };
+		0E0C3C251A4FA0A700325FF0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0E9723A71A4FABF5002BD226 /* RegiftDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = RegiftDemo.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0C3C261A4FA0A700325FF0 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +78,7 @@
 				0E0C3BF51A4F9F8C00325FF0 /* RegiftDemo */,
 				0E0C3C0B1A4F9F8D00325FF0 /* RegiftDemoTests */,
 				0E0C3BF41A4F9F8C00325FF0 /* Products */,
+				0E9723A71A4FABF5002BD226 /* RegiftDemo.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +107,7 @@
 		0E0C3BF61A4F9F8C00325FF0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0E0C3C251A4FA0A700325FF0 /* MobileCoreServices.framework */,
 				0E0C3BF71A4F9F8C00325FF0 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -112,6 +130,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0E9723A81A4FABF5002BD226 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,6 +145,7 @@
 				0E0C3BEF1A4F9F8C00325FF0 /* Sources */,
 				0E0C3BF01A4F9F8C00325FF0 /* Frameworks */,
 				0E0C3BF11A4F9F8C00325FF0 /* Resources */,
+				0E0C3C211A4F9FF900325FF0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -179,6 +203,12 @@
 			mainGroup = 0E0C3BEA1A4F9F8C00325FF0;
 			productRefGroup = 0E0C3BF41A4F9F8C00325FF0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0E9723A81A4FABF5002BD226 /* Products */;
+					ProjectRef = 0E9723A71A4FABF5002BD226 /* RegiftDemo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0E0C3BF21A4F9F8C00325FF0 /* RegiftDemo */,
@@ -407,6 +437,7 @@
 				0E0C3C141A4F9F8D00325FF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E0C3C151A4F9F8D00325FF0 /* Build configuration list for PBXNativeTarget "RegiftDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +446,7 @@
 				0E0C3C171A4F9F8D00325FF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
