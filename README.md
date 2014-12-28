@@ -1,7 +1,7 @@
 RegiftDemo
 ==========
 
-Demo of my library Regift, for converting a gif to a video on iOS
+Demo of my library Regift, for converting a video to a gif on iOS
 
 This demo has to be run on a device so that you can record a video.
 
